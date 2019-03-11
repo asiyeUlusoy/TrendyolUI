@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Trendyol UI Testing">
+	<parameter name="browser" value="Chrome" />
+
+	<test name="Trendyol UI Testing">
+		<classes>
+			<class name="suites.trendyol.ui.UITest">
+				<methods>
+					<include name="login" />
+					<include name="boutiqueImageTest" />
+					<include name="productImageTest"></include>
+					<include name="getProductToBasket"></include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite>

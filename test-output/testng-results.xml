@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="1" total="4" passed="3">
+  <reporter-output>
+    <line>
+      <![CDATA[Test Started with runID= 6285806 at Firefox browser.]]>
+    </line>
+    <line>
+      <![CDATA[Set Up completed 
+]]>
+    </line>
+    <line>
+      <![CDATA[Test Started= login]]>
+    </line>
+    <line>
+      <![CDATA[Test Completed= login
+]]>
+    </line>
+    <line>
+      <![CDATA[Test Started= productImageTest]]>
+    </line>
+    <line>
+      <![CDATA[Test Completed= productImageTest
+]]>
+    </line>
+    <line>
+      <![CDATA[Test Started= getProductToBasket]]>
+    </line>
+    <line>
+      <![CDATA[Test Completed= getProductToBasket
+]]>
+    </line>
+  </reporter-output>
+  <suite name="Trendyol UI Testing" duration-ms="64761" started-at="2019-03-11T00:07:38Z" finished-at="2019-03-11T00:08:42Z">
+    <groups>
+    </groups>
+    <test name="Trendyol UI Testing" duration-ms="64761" started-at="2019-03-11T00:07:38Z" finished-at="2019-03-11T00:08:42Z">
+      <class name="suites.trendyol.ui.UITest">
+        <test-method status="PASS" signature="beforeClass(org.testng.ITestContext)[pri:0, instance:suites.trendyol.ui.UITest@343f4d3d]" name="beforeClass" is-config="true" duration-ms="3600" started-at="2019-03-11T00:07:38Z" finished-at="2019-03-11T00:07:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@78e16155]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test Started with runID= 6285806 at Firefox browser.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:suites.trendyol.ui.UITest@343f4d3d]" name="setUp" is-config="true" duration-ms="0" started-at="2019-03-11T00:07:41Z" finished-at="2019-03-11T00:07:41Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Set Up completed 
+]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="beforeTest(java.lang.reflect.Method)[pri:0, instance:suites.trendyol.ui.UITest@343f4d3d]" name="beforeTest" is-config="true" duration-ms="1" started-at="2019-03-11T00:07:41Z" finished-at="2019-03-11T00:07:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void suites.trendyol.ui.UITest.login()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test Started= login]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="login()[pri:0, instance:suites.trendyol.ui.UITest@343f4d3d]" name="login" duration-ms="18670" started-at="2019-03-11T00:07:41Z" finished-at="2019-03-11T00:08:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="afterTest(java.lang.reflect.Method)[pri:0, instance:suites.trendyol.ui.UITest@343f4d3d]" name="afterTest" is-config="true" duration-ms="0" started-at="2019-03-11T00:08:00Z" finished-at="2019-03-11T00:08:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void suites.trendyol.ui.UITest.login()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test Completed= login
+]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="beforeTest(java.lang.reflect.Method)[pri:0, instance:suites.trendyol.ui.UITest@343f4d3d]" name="beforeTest" is-config="true" duration-ms="0" started-at="2019-03-11T00:08:00Z" finished-at="2019-03-11T00:08:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void suites.trendyol.ui.UITest.productImageTest() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test Started= productImageTest]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="productImageTest()[pri:0, instance:suites.trendyol.ui.UITest@343f4d3d]" name="productImageTest" duration-ms="12914" started-at="2019-03-11T00:08:00Z" depends-on-methods="suites.trendyol.ui.UITest.login" finished-at="2019-03-11T00:08:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- productImageTest -->
+        <test-method status="PASS" signature="beforeTest(java.lang.reflect.Method)[pri:0, instance:suites.trendyol.ui.UITest@343f4d3d]" name="beforeTest" is-config="true" duration-ms="0" started-at="2019-03-11T00:08:13Z" finished-at="2019-03-11T00:08:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void suites.trendyol.ui.UITest.getProductToBasket() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test Started= getProductToBasket]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="afterTest(java.lang.reflect.Method)[pri:0, instance:suites.trendyol.ui.UITest@343f4d3d]" name="afterTest" is-config="true" duration-ms="0" started-at="2019-03-11T00:08:13Z" finished-at="2019-03-11T00:08:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void suites.trendyol.ui.UITest.productImageTest() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test Completed= productImageTest
+]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="getProductToBasket()[pri:0, instance:suites.trendyol.ui.UITest@343f4d3d]" name="getProductToBasket" duration-ms="28722" started-at="2019-03-11T00:08:13Z" depends-on-methods="suites.trendyol.ui.UITest.login" finished-at="2019-03-11T00:08:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getProductToBasket -->
+        <test-method status="PASS" signature="afterTest(java.lang.reflect.Method)[pri:0, instance:suites.trendyol.ui.UITest@343f4d3d]" name="afterTest" is-config="true" duration-ms="1" started-at="2019-03-11T00:08:42Z" finished-at="2019-03-11T00:08:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void suites.trendyol.ui.UITest.getProductToBasket() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test Completed= getProductToBasket
+]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:suites.trendyol.ui.UITest@343f4d3d]" name="tearDown" is-config="true" duration-ms="825" started-at="2019-03-11T00:08:42Z" finished-at="2019-03-11T00:08:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- suites.trendyol.ui.UITest -->
+    </test> <!-- Trendyol UI Testing -->
+  </suite> <!-- Trendyol UI Testing -->
+</testng-results>
